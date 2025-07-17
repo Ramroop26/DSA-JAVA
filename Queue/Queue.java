@@ -4,10 +4,10 @@ class Impl{
     int front ;
     int rear ;
 
-    Impl(int n){
+    Impl(int n){ // contractor
         arr = new int[n];
-         front = 0;
-         rear = -1;
+         front = 0; //front first element point karega
+         rear = -1;// last element point karega 
 
     }
 }
