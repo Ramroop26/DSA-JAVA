@@ -35,7 +35,7 @@ public class Node {
  public Node(int data) {
  this.data = data;
  next = null;
- System.out.println("Node created Success");
+ 
  }
 public void display(Node head){
  Node temp=head;
