@@ -2,8 +2,7 @@ class TImpl{
     int data;
     TImpl left;
     TImpl Right;
-    int C;
-    int R;
+
 
     TImpl(int data){
         this.data = data;
@@ -14,7 +13,7 @@ class TImpl{
 }
 
 class First{
-    public static void main(String[] args) {
+      public static void main(String[] args) {
         TImpl obj = new TImpl(10);
         obj.left = new TImpl(20);
         obj.Right = new TImpl(30);
