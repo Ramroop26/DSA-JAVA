@@ -1,3 +1,6 @@
+/**
+ * The Java class `Impl` represents a basic implementation of a queue data structure with an array and tracks front and rear indices.
+ */
 class Impl{
 
     int arr[];

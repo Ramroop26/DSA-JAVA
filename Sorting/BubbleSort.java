@@ -1,22 +1,24 @@
-public class array {
-    public static void main(String [] args){
-        int arr [] = {12,64,35,47,9};
+//Bubble Sort 
 
-        for(int i=0; i<arr.length; i++){
-            for(int j=0; j<arr.length-i-1; j++){
-                if (arr[j]>arr[j+1]) {
-                    int temp = arr[j];
-                    arr[j] = arr[j+1];
-                    arr[j+1] = temp;
+public class BubbleSort{
+    public static void main (String args[]){
+        int arr[]={99,8,4,55,33,24,65};
+        int n=arr.length;
+
+        for(int i=0;i<n-1;i++){
+            for(int j=0;j<n-1-i;j++){
+                if(arr[j]>arr[j+1]){
+                    int temp=arr[j];
+                    arr[j]=arr[j+1];
+                    arr[j+1]=temp;
                 }
-                System.out.println(arr[i]);
-                
             }
-            
         }
-        
-    }
 
+        for(int i:arr){
+            System.out.println(i);
+        }
+    }
 }
 
 
