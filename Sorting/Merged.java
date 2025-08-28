@@ -50,6 +50,7 @@ public static void main(String [] args){
     int ans[] = divide(arr);
 
     for(int Ans : ans){
+        
             System.out.print(Ans +" ");
         }
 }

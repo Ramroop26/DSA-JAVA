@@ -1,5 +1,4 @@
 //Bubble Sort 
-
 public class BubbleSort{
     public static void main (String args[]){
         int arr[]={99,8,4,55,33,24,65};
@@ -23,7 +22,6 @@ public class BubbleSort{
 
 
 //Selection sort
-
 // public  class array{
 //     public static void main(String [] args){
 //         int arr[] = {12,35,64,47,9}; 
@@ -31,14 +29,12 @@ public class BubbleSort{
 //         int minI = i;
 //             for(int j=i+1; j<arr.length; j++){
 //                 if (arr[j]<arr[minI]) {
-//                     minI = j;
-                    
+//                     minI = j;                    
 //                 }
 //             }
 //             int temp = arr[minI];
 //             arr[minI] = arr[i];
 //             arr[i] = temp;
-
 //         }
 //          for(int a: arr){
 //         System.out.print(a);
