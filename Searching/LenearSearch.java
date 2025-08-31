@@ -1,6 +1,6 @@
-class LenearSearch
-{
-static int linearSearch(int arr[],int target)
+class LenearSearch {
+
+    static int linearSearch(int arr[],int target)
 {
     for(int i=0;i<arr.length;++i)
     {
@@ -13,6 +13,8 @@ return -1;
 
 }
 
+
+
 public static void main(String str[])
 {
 
@@ -21,5 +23,6 @@ int target=50;
 System.out.println(linearSearch(arr,target));
 
 }
+
 
 }
