@@ -7,7 +7,7 @@
 
 //             if (nums[mid] == target) {
 //                 return mid;
-//             } else if (nums[mid] < target) {
+//             } else if (nims[mid] < target) {
 //                 left = mid + 1;
 //             } else {
 //                 right=  mid - 1;
