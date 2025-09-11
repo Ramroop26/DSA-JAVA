@@ -2,7 +2,9 @@ class Rider{
     void driver();
 }
 
-class car implement
+class car implement track{
+    void driver();
+}
 
 
 
