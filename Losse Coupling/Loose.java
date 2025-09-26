@@ -29,3 +29,5 @@ public class Loose {
         rider.driver();
     }
 }
+
+// Loose coupling = Depend on abstraction (interface/abstract class), not concrete implementation.
